@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm an enthusiastic and ambitious developer, eager to kickstart my career in the tech industry. With a strong foundation in computer science and a passion for building innovative solutions, I've been actively working on various projects to hone my skills. My portfolio showcases my journey so far, featuring projects that demonstrate my understanding of front-end technologies like React and my ability to work with modern tools like Vite. I'm excited to continue learning and growing as a developer, and I'm looking forward to collaborating with others to create impactful and user-friendly applications.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm an aspiring full stack developer, eager to start my career in the tech industry. With a solid foundation in computer science and a passion for building web applications, I've been actively working on various projects to develop my skills and showcase my creativity. My journey in web development began with a deep curiosity for how things work, and I'm excited to continue learning and growing as a developer. I enjoy solving complex problems, collaborating with others, and delivering high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -40,32 +40,31 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Journalist website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed an AI-powered system using a DJI Tello Drone for real-time object detection and tracking of a specific person (journalist) using a custom-trained YOLOv8 model. The system includes a user-friendly website built with React for drone control and footage management, integrating Firebase authentication for user login/register and MySQL database for local storage of drone footage.",
+    technologies: ["React", "Firebase", "Flask", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "Dashboard Creation",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a comprehensive dashboard and reports for analyzing store data as part of the data analytics certification program under Atos Prayas Foundation. Utilized various analytical techniques and tools, including Microsoft Power BI, to extract insights and present actionable recommendations.",
+    technologies: ["Microsoft Power BI"],
   },
   {
-    title: "Portfolio Website",
+    title: "Agriculture Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed an Agriculture Management System using Angular and Python, which included a website with voice search functionality for agriculture queries.NLTK (Natural Language Toolkit) was utilized to build the voice search feature. ",
+    technologies: ["Angular", "Firebase", "Mysql"],
   },
   {
-    title: "Blogging Platform",
+    title: "Personal Portfolio Webpage",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: "A showcase of my skills and experiences, built with React and Vite. This portfolio webpage features a responsive design, interactive components, and a clean user interface. It's a demonstration of my ability to design and develop a modern web application using cutting-edge technologies.",
+    technologies: ["React", "Vite"],
   },
 ];
 
