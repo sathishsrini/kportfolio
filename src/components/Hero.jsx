@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import portfolio_pic from "../assets/portfolio_pic.png";
+import portfolio_pic from "../assets/komathi_pic.jpg";
 import { motion } from "framer-motion";
 import { GiDuration } from "react-icons/gi";
 
@@ -25,7 +25,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Sathish S
+              Komathi M
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -52,7 +52,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={portfolio_pic}
-              alt="Sathish S"
+              alt="komathi M"
               className="max-w-full h-auto object-contain"
             />
           </div>
