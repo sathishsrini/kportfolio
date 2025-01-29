@@ -1,5 +1,7 @@
+import React from "react";
 import { CONTACT } from "../constants/index";
 import { motion } from "framer-motion";
+
 
 function Contact() {
   return (

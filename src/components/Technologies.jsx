@@ -1,6 +1,8 @@
+import React from "react";
 import { FaPython, FaNodeJs } from "react-icons/fa";
-import { SiPowerbi, SiDjango, SiMysql } from "react-icons/si";
+import { SiDjango, SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
+import powerbi from "../assets/powerbi.png"
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -42,7 +44,6 @@ const Technologies = () => {
         >
           <FaPython className="text-7xl text-yellow-300" />
         </motion.div>
-
         {/* Power BI */}
         <motion.div
           variants={iconVariants(3)}
@@ -50,9 +51,8 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiPowerbi className="text-7xl text-yellow-500" />
-        </motion.div>
-
+          <img src={powerbi} alt="Power BI" className="w-20 h-20" />
+</motion.div>
         {/* Django */}
         <motion.div
           variants={iconVariants(2.5)}

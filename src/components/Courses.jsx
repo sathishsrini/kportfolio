@@ -1,5 +1,7 @@
+import React from "react";
 import { COURSES } from "../constants/index";
 import { motion } from "framer-motion";
+
 
 function Courses() {
   return (
