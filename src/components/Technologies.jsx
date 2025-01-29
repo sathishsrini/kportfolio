@@ -1,5 +1,4 @@
-import React from "react";
-import { FaPython, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { FaPython, FaNodeJs } from "react-icons/fa";
 import { SiPowerbi, SiDjango, SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
 

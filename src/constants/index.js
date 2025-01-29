@@ -1,13 +1,11 @@
 import project1 from "../assets/inv.png";
 import project2 from "../assets/tm.webp";
 import project3 from "../assets/sp.jpg";
-import project4 from "../assets/portfolio.jpg";
 import intern from "../assets/wd.png";
 import powerbi from "../assets/power.jpg";
 import python from "../assets/python.webp";
 import pass from "../assets/komathi_pic.jpg";
 import cloud from "../assets/ce.jpg";
-import result_yolo from "../assets/result.jpeg";
 
 export const HERO_CONTENT = `I'm an enthusiastic and ambitious Python developer, eager to kickstart my career in the tech industry. With a strong foundation in programming and a passion for building innovative solutions, I've been actively working on various projects to hone my skills in Python, web development, and AI-based applications. My portfolio showcases my journey so far, featuring projects that demonstrate my expertise in Python, Django, OpenCV, and data analysis using tools like PowerBI. I'm excited to contribute to impactful projects and continue growing as a developer.`;
 
