@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/l.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
@@ -13,27 +13,27 @@ const Navbar = () => {
         <FaLinkedin
           onClick={() =>
             (window.location.href =
-              "https://www.linkedin.com/in/sathish-it-a48230287/")
+              "https://www.linkedin.com/in/komathi-m-76417424a/")
           }
-          className="cursor-pointer"
+          className="cursor-pointer text-black-600 hover:text-white transition duration-300"
         />
         <FaGithub
           onClick={() =>
             (window.location.href = "https://github.com/yourprofile")
           }
-          className="cursor-pointer"
+          className="cursor-pointer text-black-600 hover:text-white transition duration-300"
         />
         <FaInstagram
           onClick={() =>
             (window.location.href = "https://www.instagram.com/yourprofile")
           }
-          className="cursor-pointer"
+          className="cursor-pointer text-black-600 hover:text-white transition duration-300"
         />
         <FaSquareXTwitter
           onClick={() =>
             (window.location.href = "https://twitter.com/yourprofile")
           }
-          className="cursor-pointer"
+          className="cursor-pointer text-black-600 hover:text-white transition duration-300"
         />
       </div>
     </nav>

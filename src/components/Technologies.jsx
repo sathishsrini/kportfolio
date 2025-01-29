@@ -1,10 +1,7 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { FaDatabase, FaPython } from "react-icons/fa";
-import { SiFlask } from "react-icons/si";
-import powerbi from "../assets/powerbi.png";
+import { FaPython, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { SiPowerbi, SiDjango, SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
-import { isStyledComponent } from "styled-components";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -37,22 +34,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap justify-center items-center gap-4"
       >
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <img src={powerbi} alt="powerbi" className="w-20 h-20" />
-        </motion.div>
+        {/* Python */}
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
@@ -61,21 +43,45 @@ const Technologies = () => {
         >
           <FaPython className="text-7xl text-yellow-300" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaDatabase className="text-7xl" />
-        </motion.div>
+
+        {/* Power BI */}
         <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiFlask className="text-7xl" />
+          <SiPowerbi className="text-7xl text-yellow-500" />
+        </motion.div>
+
+        {/* Django */}
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiDjango className="text-7xl text-green-600" />
+        </motion.div>
+
+        {/* MySQL */}
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMysql className="text-7xl text-blue-500" />
+        </motion.div>
+
+        {/* Node.js */}
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
       </motion.div>
     </div>
