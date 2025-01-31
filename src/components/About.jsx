@@ -5,10 +5,12 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    
+    // Apply a background color to the entire section
+    <div className="border-b border-neutral-900 pb-4"> {/* Change bg-blue-50 to your desired color */}
       <h1 className="my-20 text-center text-4xl">
         About
-        <span className="text-neutral-500"> Me</span>
+        <span className="text-purple-600"> Me</span> {/* Change text-purple-600 to your desired color */}
       </h1>
       <div className="flex flex-wrap items-center justify-center lg:justify-center">
         <motion.div
@@ -19,7 +21,7 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             <img
-              className="rounded-2xl w-full max-w-md lg:max-w-full"
+              className="rounded-2xl w-full max-w-md lg:max-w-full shadow-lg" // Added shadow for better visuals
               src={aboutImg}
               alt="about"
             />
@@ -32,7 +34,9 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 max-w-xl py-6 text-gray-700"> {/* Change text-gray-700 to your desired color */}
+              {ABOUT_TEXT}
+            </p>
           </div>
         </motion.div>
       </div>

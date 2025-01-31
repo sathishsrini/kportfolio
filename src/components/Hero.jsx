@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import portfolio_pic from "../assets/pp.png";
+import portfolio_pic from "../assets/prp.png";
 import { motion } from "framer-motion";
 
 
@@ -23,7 +23,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-6xl font-thin tracking-tight lg:mt-10 lg:text-8xl"
             >
               Komathi M
             </motion.h1>
@@ -53,7 +53,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={portfolio_pic}
               alt="Komathi M"
-              className="w-3/4 max-w-[250px] h-auto object-contain lg:max-w-[350px] lg:ml-20"
+              className="w-3/4 max-w-[400px] h-auto object-contain lg:max-w-[550px] lg:ml-20"
             />
           </div>
         </div>
